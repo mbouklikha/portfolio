@@ -98,6 +98,13 @@ nav {
   color: #38bdf8;
 }
 
+.btn {
+  background: #38bdf8;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #000;
+  text-decoration: none;
+}
 
 
 
