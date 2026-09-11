@@ -198,7 +198,7 @@ h2 {
 
 
 
-/* --- Timeline Formation --- */
+/* --- Timeline Formation / Expériences --- */
 .timeline {
   position: relative;
   margin: 20px auto;
@@ -207,34 +207,38 @@ h2 {
 }
 
 .timeline-item {
-  margin-bottom: 30px;
   position: relative;
-  display: flex;
-  align-items: center;   
-  gap: 15px;             
+  display: grid;
+  grid-template-columns: 70px 100px 1fr;
+  align-items: start;
+  gap: 15px;
+  margin-bottom: 30px;
 }
 
 .timeline-logo {
-  width: 70px;   
+  width: 70px;
   height: 70px;
   object-fit: contain;
-  border-radius: 8px;  
+  border-radius: 8px;
 }
-
 
 .timeline-item .date {
   font-weight: bold;
   color: #38bdf8;
+  padding-top: 25px;
+  white-space: nowrap;
 }
 
 .timeline-item .content {
   background: #1e293b;
   padding: 15px;
   border-radius: 8px;
-  margin-top: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
+.timeline-item .content h3 {
+  margin-top: 0;
+}
 
 
 
